@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.morePicture button {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background: #9b3d4d;
+  color: white;
+  cursor: pointer;
+}
+
+.nav {
+  background: #916565;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 3rem;
+}
+
+.nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+.nav ul li a {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+.search input,
+.search button {
+  padding: 0.25rem;
+  font-size: 2rem;
+  border: 2px solid #9b5d67;
+}
+
+.search button {
+  background: #9b5d67;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background: silver;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1.25rem;
+}
+
+.pictures .picture {
+  width: 380px;
+  margin: 1rem;
+}
+
+.pictures .picture .imageContainer {
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.pictures .picture .imageContainer img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.pictures .picture p a {
+  font-size: 1.2rem;
+  color: #ff8297;
+}
+
+.pictures .picture p a:hover {
+  color: rebeccapurple;
+}
+/*# sourceMappingURL=style.css.map */

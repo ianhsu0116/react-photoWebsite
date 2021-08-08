@@ -1,0 +1,18 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+  input,
+  button {
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: 2px solid rgb(155, 93, 103);
+  }
+  button {
+    background: rgb(155, 93, 103);
+    color: white;
+    cursor: pointer;
+  }
+}
